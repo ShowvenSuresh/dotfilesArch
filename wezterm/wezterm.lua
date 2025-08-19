@@ -18,7 +18,7 @@ config.window_padding = {
   bottom = 0,
 }
 
-config.window_background_opacity = 0.80
+config.window_background_opacity = 0.85
 
 
 config.text_background_opacity = 1.0
