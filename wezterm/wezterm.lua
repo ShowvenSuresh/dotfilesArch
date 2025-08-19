@@ -8,6 +8,7 @@ local config = wezterm.config_builder()
 
 -- Add a color scheme
 config.color_scheme = 'Tango (terminal.sexy)'
+--config.color_scheme = 'tokyonight_night'
 -- disable the ftop tab bar
 config.enable_tab_bar = false
 -- change all the padding to  0
