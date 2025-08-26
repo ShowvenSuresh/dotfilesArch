@@ -19,7 +19,7 @@ return {
     vim.lsp.enable('html')
     vim.lsp.enable('cssls')
     vim.lsp.enable('jsonls')
-    vim.lsp.enable('eslint')
+    --    vim.lsp.enable('eslint')
     vim.lsp.enable('ts_ls')
     --  testing the dofiles changing
     --set the diagnostice config
