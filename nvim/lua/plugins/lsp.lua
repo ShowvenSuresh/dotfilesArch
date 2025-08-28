@@ -13,7 +13,7 @@ return {
     vim.lsp.enable('gopls')
     vim.lsp.enable('pyright')
     vim.lsp.enable('bashls')
-    --    vim.lsp.enable('ccls')
+    vim.lsp.enable('ccls')
     --   vim.lsp.enable('clangd')
     vim.lsp.enable('lua_ls') -- auto start based on filetype
     vim.lsp.enable('html')
