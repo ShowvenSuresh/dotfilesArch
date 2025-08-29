@@ -8,7 +8,16 @@ return {
   config = function()
     require("blink.cmp").setup()
     local capabilities = require('blink.cmp').get_lsp_capabilities()
+
     vim.lsp.config('*', { capabilities = capabilities })
+
+
+    vim.lsp.config('tsserver', {
+      capabilities = capabilities,
+      cmd = { "typescript-language-server", "--stdio" },
+      filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+    })
+
     --    vim.lsp.enable('jdtls')
     vim.lsp.enable('gopls')
     vim.lsp.enable('pyright')
@@ -20,7 +29,7 @@ return {
     vim.lsp.enable('cssls')
     vim.lsp.enable('jsonls')
     vim.lsp.enable('eslint')
-    --vim.lsp.enable('ts_ls')
+    vim.lsp.enable('tsserver')
     --  testing the dofiles changing
     --set the diagnostice config
     vim.diagnostic.config({
