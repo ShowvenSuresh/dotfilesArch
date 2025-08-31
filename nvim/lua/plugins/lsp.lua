@@ -30,6 +30,7 @@ return {
     vim.lsp.enable('jsonls')
     vim.lsp.enable('eslint')
     vim.lsp.enable('tsserver')
+    vim.lsp.enable('solidity_ls_nomicfoundation')
     --  testing the dofiles changing
     --set the diagnostice config
     vim.diagnostic.config({
