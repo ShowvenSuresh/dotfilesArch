@@ -27,7 +27,7 @@ return {
     vim.lsp.enable('lua_ls') -- auto start based on filetype
     vim.lsp.enable('html')
     vim.lsp.enable('cssls')
-    -- vim.lsp.enable('jsonls')
+    vim.lsp.enable('jsonls')
     vim.lsp.enable('eslint')
     vim.lsp.enable('tsserver')
     vim.lsp.enable('solidity_ls_nomicfoundation')
