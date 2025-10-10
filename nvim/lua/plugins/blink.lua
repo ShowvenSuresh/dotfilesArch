@@ -21,7 +21,7 @@ return {
       },
 
       completion = {
-        documentation = { auto_show = false, auto_show_delay_ms = 500 },
+        documentation = { auto_show = true, auto_show_delay_ms = 500 },
         ghost_text = { enabled = true, }
       },
       fuzzy = { implementation = "prefer_rust_with_warning" },
