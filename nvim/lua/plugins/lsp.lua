@@ -18,6 +18,26 @@ return {
       filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
     })
 
+
+    vim.lsp.config("lua_ls", {
+      capabilities = capabilities,
+      settings = {
+        Lua = {
+          diagnostics = {
+            globals = { "vim", "love" },
+          },
+          workspace = {
+            library = {
+              -- vim.api.nvim_get_runtime_file("", true),                    -- Neovim runtime
+              [vim.fn.expand("~/LSP/love/love-api")] = true, -- LÖVE API
+            },
+            checkThirdParty = false,
+          },
+          telemetry = { enable = false },
+        },
+      },
+    })
+
     --    vim.lsp.enable('jdtls')
     vim.lsp.enable('gopls')
     vim.lsp.enable('pyright')
