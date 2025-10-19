@@ -10,7 +10,7 @@
   "lualine.nvim": { "branch": "master", "commit": "3946f0122255bc377d14a59b27b609fb3ab25768" },
   "mason.nvim": { "branch": "main", "commit": "ad7146aa61dcaeb54fa900144d768f040090bff0" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "c4c168e459395275c552179a1baf9c3d885d6a74" },
-  "noice.nvim": { "branch": "main", "commit": "38c702be0d8fea81527ee6a73e1e834e72481193" },
+  "noice.nvim": { "branch": "main", "commit": "db248375c12c5322fbb9b505c1dc6f08e4527684" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
   "nvim-dap": { "branch": "master", "commit": "6782b097af2417a4c3e33849b0a26ae2188bd7ea" },
   "nvim-java": { "branch": "main", "commit": "3d56b7461facb42f135e25b2636bf220a7f0ed42" },
