@@ -28,8 +28,8 @@ return {
           },
           workspace = {
             library = {
-              -- vim.api.nvim_get_runtime_file("", true),                    -- Neovim runtime
-              [vim.fn.expand("~/LSP/love/love-api")] = true, -- LÖVE API
+              vim.env.VIMRUNTIME,
+              vim.fn.stdpath('config') -- Include your config files
             },
             checkThirdParty = false,
           },
