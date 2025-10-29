@@ -157,7 +157,6 @@ source "$OSH"/oh-my-bash.sh
 # Example aliases
 # alias bashconfig="mate ~/.bashrc"
 # alias ohmybash="mate ~/.oh-my-bash"
- fastfetch -l ~/.config/fastfetch/ascii/pic1.txt
 . "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
