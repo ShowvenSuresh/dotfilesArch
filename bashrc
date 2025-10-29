@@ -10,7 +10,7 @@ export HYPRSHOT_DIR='/home/thinker12/pictures/screenshots/'
 export PATH=$PATH:/home/thinker12/LSP/lua-language-server/bin
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="90210"
+OSH_THEME="rr"
 
 #OSH_THEME="powerbash10k"
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
