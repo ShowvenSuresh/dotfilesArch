@@ -12,7 +12,7 @@
   "neo-tree.nvim": { "branch": "v3.x", "commit": "f3df514fff2bdd4318127c40470984137f87b62e" },
   "noice.nvim": { "branch": "main", "commit": "7bfd942445fb63089b59f97ca487d605e715f155" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
-  "nvim-dap": { "branch": "master", "commit": "e97dc47e134ffb33da008658fecfae8f8547c528" },
+  "nvim-dap": { "branch": "master", "commit": "4c0e3a98465fac963dfde898cc8b878094153a43" },
   "nvim-java": { "branch": "main", "commit": "3d56b7461facb42f135e25b2636bf220a7f0ed42" },
   "nvim-java-core": { "branch": "main", "commit": "229ebcdfa33c75cf746f97c46c2893b2de3626e5" },
   "nvim-java-dap": { "branch": "main", "commit": "55f239532f7a3789d21ea68d1e795abc77484974" },
