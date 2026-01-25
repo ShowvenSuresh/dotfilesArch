@@ -8,6 +8,9 @@ esac
 export OSH='/home/thinker12/.oh-my-bash'
 export HYPRSHOT_DIR='/home/thinker12/pictures/screenshots/'
 export PATH=$PATH:/home/thinker12/LSP/lua-language-server/bin
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
 OSH_THEME="minimal"
