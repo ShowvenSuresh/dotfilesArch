@@ -13,7 +13,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="minimal"
+OSH_THEME="powerbash10k"
 
 #OSH_THEME="powerbash10k"
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
