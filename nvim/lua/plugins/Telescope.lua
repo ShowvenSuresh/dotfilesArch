@@ -1,10 +1,11 @@
 return {
-  'nvim-telescope/telescope.nvim',
-  tag = '0.1.8',
-  dependencies = { { 'nvim-lua/plenary.nvim' },
-    { 'BurntSushi/ripgrep' },
-  },
-  config = function()
+  'nvim-telescope/telescope.nvim', version = '*',
+    dependencies = {
+        'nvim-lua/plenary.nvim',
+        -- optional but recommended
+        { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+    },  
+    config = function()
     -- custome key bindings for telescope fuzzy find
     local builtin = require('telescope.builtin')
     vim.keymap.set('n', '<leader>f', builtin.find_files, { desc = 'Telescope find files' })
