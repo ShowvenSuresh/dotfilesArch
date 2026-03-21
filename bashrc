@@ -6,7 +6,7 @@ esac
 
 # Path to your oh-my-bash installation.
 export OSH='/home/thinker12/.oh-my-bash'
-export HYPRSHOT_DIR='/home/thinker12/pictures/screenshots/'
+export HYPRSHOT_DIR='/home/thinker12/screenshots'
 export PATH=$PATH:/home/thinker12/LSP/lua-language-server/bin
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
