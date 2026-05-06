@@ -13,7 +13,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-bash is loaded.
-OSH_THEME="powerbash10k"
+OSH_THEME="90210"
 
 #OSH_THEME="powerbash10k"
 # If you set OSH_THEME to "random", you can ignore themes you don't like.
@@ -167,3 +167,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$PATH:/home/thinker12/.foundry/bin"
+fastfetch --logo /home/thinker12/dotfilesArch/fastfetch/ascii/pic1.txt
