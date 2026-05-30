@@ -1,4 +1,6 @@
 theme = "Dark Pastel"
-background-blur = true 
 
 background-opacity = 0.90
+background-blur = true
+
+
