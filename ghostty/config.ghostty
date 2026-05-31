@@ -1,6 +1,6 @@
-theme = "Dark Pastel"
+theme = "Deep"
 
-background-opacity = 0.70
-background-blur = true 
+background-opacity = 0.65
+background-blur = false 
 
 

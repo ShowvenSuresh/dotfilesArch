@@ -167,4 +167,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="$PATH:/home/thinker12/.foundry/bin"
-fastfetch --logo /home/thinker12/dotfilesArch/fastfetch/ascii/pic1.txt
+#fastfetch --logo /home/thinker12/dotfilesArch/fastfetch/ascii/pic1.txt
